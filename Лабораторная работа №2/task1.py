@@ -1,9 +1,11 @@
 """Abacaba."""
+
+
 class Book:
     """Abacaba."""
 
     def __init__(self, id_, name, pages):
-        """abacaba"""
+        """Abacaba."""
         self.id = id_
         self.name = name
         self.pages = pages
