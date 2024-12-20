@@ -1,13 +1,17 @@
 class Book:
+    """abacaba"""
     def __init__(self, id_, name, pages):
+         """abacaba"""
         self.id = id_
         self.name = name
         self.pages = pages
 
     def __str__(self):
+         """abacaba"""
         return f'Книга "{self.name}"'
 
     def __repr__(self):
+         """abacaba"""
         return f"Book(id_={self.id}, name='{self.name}', pages={self.pages})"
 
 
