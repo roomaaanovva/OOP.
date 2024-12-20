@@ -1,5 +1,6 @@
+"""Abacaba."""
 class Book:
-    """abacaba"""
+    """Abacaba."""
 
     def __init__(self, id_, name, pages):
         """abacaba"""
@@ -8,11 +9,11 @@ class Book:
         self.pages = pages
 
     def __str__(self):
-        """abacaba"""
+        """Abacaba."""
         return f'Книга "{self.name}"'
 
     def __repr__(self):
-        """abacaba"""
+        """Abacaba."""
         return f"Book(id_={self.id}, name='{self.name}', pages={self.pages})"
 
 
